@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 
 const UserDetails = () => {
   const { id } = useParams();
-  const [user, setUser] = userState(null);
+
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`).then((res) =>
@@ -14,6 +15,7 @@ const UserDetails = () => {
   return (
     <div>
       <h1>User details</h1>
+
       {user && (
         <>
           <h2>{user.name}</h2>

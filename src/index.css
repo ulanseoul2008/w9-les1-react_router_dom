@@ -6,7 +6,7 @@
 }
 .navbar {
   min-height: 10vh;
-  background-color: rgb(red, green, blue);
+  background-color: rgb(119, 119, 189);
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
@@ -14,9 +14,10 @@
 }
 a {
   text-decoration: none;
-  color: bisque;
+  color: aliceblue;
 }
 .active {
+  text-decoration: underline;
   color: gold;
 }
 footer {

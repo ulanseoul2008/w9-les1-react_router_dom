@@ -4,6 +4,7 @@ import MainRoutes from "./MainRoutes";
 function App() {
   return (
     <>
+      {/* <Navbar /> */}
       <MainRoutes />
     </>
   );
